@@ -1,0 +1,57 @@
+package stepsDefinitions;
+
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+
+import static utils.Utils.*;
+
+public class CadastrarUsuarioSteps {
+
+	@Quando("eu acionar a aba Admin")
+	public void euAcionarAAbaAdmin() {
+	
+	}
+
+	@Quando("acionar o botao Add")
+	public void acionarOBotaoAdd() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Quando("informar no campo employee name {string}")
+	public void informarNoCampoEmployeeName(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Quando("informar no campo username {string}")
+	public void informarNoCampoUsername(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Quando("informar no campo password {string}")
+	public void informarNoCampoPassword(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Quando("informar no campo confirm password {string}")
+	public void informarNoCampoConfirmPassword(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+	
+	@Quando("clicar no botao salvar")
+	public void clicarNoBotaoSalvar() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+	
+	@Entao("^o sistema cadastra o usuario \"([^\"]*)\"$")
+	public void oSistemaCadastraOUsuario(String arg1) throws Throwable {
+		
+	}
+	
+	
+}

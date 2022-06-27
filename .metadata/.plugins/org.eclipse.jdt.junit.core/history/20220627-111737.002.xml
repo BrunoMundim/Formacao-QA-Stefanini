@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.RunnerTest" time="15.857">
+    <testsuite name="Funcionalidade: Cadastrar usuario" time="15.857">
+      <testcase name="Cadastrar usuario" classname="Cadastrar usuario" time="15.857"/>
+    </testsuite>
+  </testsuite>
+</testrun>

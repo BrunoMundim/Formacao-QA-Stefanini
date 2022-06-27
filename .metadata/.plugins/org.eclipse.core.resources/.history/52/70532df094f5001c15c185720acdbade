@@ -1,0 +1,29 @@
+package pageObjects;
+
+import static utils.Utils.*;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+
+	public void InformarCampoUsuario(String usuario) {
+		WebElement campoUsuarioElement = driver.findElement(By.name("txtUsername"));
+		
+		driver.findElement(By.name("txtUsername")).sendKeys(usuario);
+		
+	}
+	
+	public void InformarCampoSenha(String senha) {
+		
+		driver.findElement(By.name("txtPassword")).sendKeys(senha);
+		
+	}
+	
+	public void AcionarBotaoLogin() {
+		
+		 driver.findElement(By.name("Submit")).click();
+		
+	}
+	
+}

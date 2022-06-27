@@ -1,0 +1,25 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class CadastrarUsuarioPage {
+
+	@FindBy(id = "systemUser_employeeName_empName")
+	private WebElement employeeName;
+	
+	@FindBy(id = "systemUser_userName")
+	private WebElement userName;
+	
+	@FindBy(id = "systemUser_password")
+	private WebElement password;
+	
+	@FindBy(id = "systemUser_confirmPassword")
+	private WebElement confirmPassword;
+	
+	@FindBy(id = "btnSave")
+	private WebElement btnSave;
+	
+	
+	
+}

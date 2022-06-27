@@ -1,0 +1,38 @@
+package pageObjects;
+
+import static utils.Utils.*;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginPage {
+	
+	@FindBy(name = "txtUsername")
+	private WebElement campoUsuario;
+	
+	@FindBy(name = "txtPassword")
+	private WebElement campoSenha;
+	
+	@FindBy(name = "Submit")
+	private WebElement botaoLogin;
+
+	public void InformarCampoUsuario(String usuario) {			
+		campoUsuario.sendKeys(usuario);				
+	}
+	
+	public void InformarCampoSenha(String senha) {		
+		campoSenha.sendKeys(senha);		
+	}
+	
+	public void AcionarBotaoLogin() {		
+		botaoLogin.click();		
+	}
+	
+	public void RealizarLogin(String usuario, String senha) {
+		InformarCampoUsuario(usuario);
+		InformarCampoSenha(senha);
+		AcionarBotaoLogin();
+	}
+	
+}

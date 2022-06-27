@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.RunnerTest" time="0.014">
+    <testsuite name="Funcionalidade: Cadastrar usuario" time="0.0">
+      <testcase name="Cadastrar usuario" classname="Cadastrar usuario" time="0.0">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "eu acionar a aba Admin" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "acionar o botao Add" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "informar no campo employee name "Fiora Grace"" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "informar no campo username "Pedro"" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "informar no campo password "12345678"" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "informar no campo confirm password "12345678"" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "o sistema cadastra o usuario" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+    <testsuite name="Funcionalidade: Login" time="0.01">
+      <testcase name="Usuario invalido" classname="Login" time="0.007">
+        <skipped>io.cucumber.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="Realizar login" classname="Login" time="0.002">
+        <skipped>io.cucumber.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

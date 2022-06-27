@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="runners.RunnerTest" time="18.384">
+    <testsuite name="Funcionalidade: Login" time="18.384">
+      <testcase name="Usuario invalido" classname="Login" time="9.391"/>
+      <testcase name="Realizar login" classname="Login" time="8.993">
+        <failure>
+          <expected>Welcome</expected>
+          <actual>Welcome mr.</actual>
+          org.junit.ComparisonFailure: expected:&lt;Welcome[]&gt; but was:&lt;Welcome[ mr.]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at stepsDefinitions.LoginSteps.oSistemaExibeOUsuarioLogado(LoginSteps.java:37)&#13;
+	at ✽.o sistema exibe o usuario logado(file:src/test/resources/features/Login.feature:18)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

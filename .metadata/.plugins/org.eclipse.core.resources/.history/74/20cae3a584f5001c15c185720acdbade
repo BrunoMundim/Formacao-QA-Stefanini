@@ -1,0 +1,13 @@
+#language: pt
+#encoding: UTF-8
+
+Funcionalidade: Acessar Sistema
+
+Cenario: Acessar Sistema
+Dado que eu estou acessando o sistema
+
+Cenario: Cenario 2
+Dado entrei no Cenario 2
+
+Cenario: Cenario 3
+Dado entrei no Cenario 3

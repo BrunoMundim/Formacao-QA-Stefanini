@@ -1,0 +1,10 @@
+#language: pt
+#encoding: UTF-8
+
+Funcionalidade: Acessar Sistema
+
+Cenario: Acessar Sistema
+Dado que eu estou acessando o sistema
+Quando eu informar usuario
+E informar a senha
+Então o sistema apresenta o usuário logado

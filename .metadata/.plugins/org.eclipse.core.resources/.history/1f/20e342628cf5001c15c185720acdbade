@@ -1,0 +1,18 @@
+#language: pt
+#encoding: UTF-8
+
+@login
+Funcionalidade: Acessar Sistema
+
+Contexto: 
+	Dado que eu estou acessando o sistema
+	Quando eu informar o usuario
+	E informar a senha
+	Entao o sistema apresenta o usuario logado
+
+@informarCampo
+Cenario: Cadastrar usuário
+	Quando eu cadastrar um usuario
+
+Cenario: Usuario editar
+	Quando eu editar usuario

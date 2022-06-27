@@ -1,0 +1,28 @@
+package stepsDefinitions;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+import static pageObjects.LoginPage;
+
+import static utils.Utils.*;
+
+public class Hooks {
+
+	@Before(value = "@logins")
+	public void funcionalidadeLogin() {
+		acessarSistema();
+	}
+	
+	@Before(value = "@logins")
+	public void setUp() {
+		acessarSistema();
+		RealizarLogin();
+	}
+	
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
+	
+}

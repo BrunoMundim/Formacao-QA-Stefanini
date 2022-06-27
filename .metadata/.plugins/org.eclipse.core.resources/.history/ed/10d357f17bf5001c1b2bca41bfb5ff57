@@ -1,0 +1,13 @@
+package utils;
+
+import org.openqa.selenium.WebDriver;
+
+public class Utils {
+
+	public static WebDriver driver;
+
+	public static void acessarSistema() {
+		System.setProperty("webdriver.chrome.driver", "C:\\driver")
+	}
+
+}

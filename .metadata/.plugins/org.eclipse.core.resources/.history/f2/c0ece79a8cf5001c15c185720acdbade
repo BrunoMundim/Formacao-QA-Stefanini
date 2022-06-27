@@ -1,0 +1,11 @@
+#language: pt
+#encoding: UTF-8
+
+Funcionalidade: Login
+
+	Cenario: Usuario invalido
+		Quando eu informar o usuario "Ad"
+		E informar a senha "asd"
+		E clicar no botao Login
+		Entao o sistema exibe a mensagem de usuario invalido
+		

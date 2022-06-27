@@ -1,0 +1,39 @@
+package stepsDefinitions;
+
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
+import pageObjects.LoginPage;
+
+public class LoginSteps {
+	
+	LoginPage lPage = new LoginPage();
+	
+	@Quando("eu informar o usuario {string}")
+	public void euInformarOUsuario(String usuario) {
+		lPage.InformarCampoUsuario(usuario);
+	}
+
+	@Quando("informar a senha {string}")
+	public void informarASenha(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Quando("clicar no botao login")
+	public void clicarNoBotaoLogin() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+	
+	@Entao("o sistema exibe a mensagem de usuario invalido")
+	public void oSistemaExibeAMensagemDeUsuarioInvalido() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+
+	@Entao("o sistema exibe o usuario logado")
+	public void oSistemaExibeOUsuarioLogado() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new cucumber.api.PendingException();
+	}
+}

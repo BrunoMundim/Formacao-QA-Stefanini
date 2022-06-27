@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.RunnerTest" time="17.76">
+    <testsuite name="Funcionalidade: Login" time="17.76">
+      <testcase name="Usuario invalido" classname="Login" time="7.744"/>
+      <testcase name="Realizar login" classname="Login" time="10.015"/>
+    </testsuite>
+  </testsuite>
+</testrun>

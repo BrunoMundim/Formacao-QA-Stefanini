@@ -1,0 +1,15 @@
+#language: pt
+#encoding: UTF-8
+
+Funcionalidade: Cadastrar usuario
+	
+	@Cadastro
+	Cenario: Cadastrar usuario
+		Quando eu acionar a aba Admin
+		E acionar o botao Add
+		E informar no campo employee name "Fiora Grace"
+		E informar no campo username "Pedro"
+		E informar no campo password "12345678"
+		E informar no campo confirm password "12345678"
+		E clicar no botao salvar
+		Entao o sistema cadastra o usuario "Pedro"
