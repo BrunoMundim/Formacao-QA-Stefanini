@@ -13,7 +13,7 @@ public class Hooks {
 		acessarSistema();
 	}
 	
-	@Before(value = "@cadastrarUsuario")
+	@Before()
 	public void funcionalidadeCadastro() {
 		acessarSistema();
 		Na(LoginPage.class).RealizarLogin("Admin", "admin123");

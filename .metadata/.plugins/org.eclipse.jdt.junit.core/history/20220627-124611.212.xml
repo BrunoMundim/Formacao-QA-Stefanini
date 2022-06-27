@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.RunnerTest" time="0.161">
+    <testsuite name="Funcionalidade: TestarAction" time="0.161">
+      <testcase name="verificar dropDown da aba" classname="TestarAction" time="0.161">
+        <error>java.lang.NullPointerException&#13;
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)&#13;
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:66)&#13;
+	at pageObjects.BasePage.&lt;init&gt;(BasePage.java:11)&#13;
+	at pageObjects.TelaInicialPage.&lt;init&gt;(TelaInicialPage.java:6)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)&#13;
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)&#13;
+	at java.base/java.lang.Class.newInstance(Class.java:645)&#13;
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:131)&#13;
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:64)&#13;
+	at utils.Utils.Na(Utils.java:23)&#13;
+	at stepsDefinitions.TestandoActionSteps.moverOMouseParaAAbaPIM(TestandoActionSteps.java:12)&#13;
+	at ✽.mover o mouse para a aba PIM(file:src/test/resources/features/TestandoAction.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

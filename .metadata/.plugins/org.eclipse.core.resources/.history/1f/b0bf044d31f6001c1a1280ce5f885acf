@@ -1,0 +1,10 @@
+#language: pt
+#encoding: UTF-8
+
+@dropdown
+Funcionalidade: TestarAction
+
+	Cenario: verificar dropDown da aba
+		Quando mover o mouse para a aba PIM
+		E mover o mouse para o menu Configuration
+		E mover o mouse para o menu Custon Field

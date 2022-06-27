@@ -1,0 +1,29 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+
+import static utils.Utils.*;
+
+public class BasePage {
+	
+	Actions acao = new Actions(driver);
+
+	@FindBy(linkText = "Admin")
+	public WebElement abaAdmin;
+	
+	@FindBy(linkText = "PIM")
+	public WebElement abaPim;
+	
+	@FindBy(linkText = "Configuration")
+	public WebElement menuConfiguration;
+
+	@FindBy(linkText = "Custom Fields")
+	public WebElement menuCustomFields;
+	
+	public void AcionarAbaAdmin() {
+		abaAdmin.click();
+	}
+
+}

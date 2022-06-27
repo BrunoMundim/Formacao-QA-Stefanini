@@ -1,0 +1,12 @@
+package stepsDefinitions;
+
+import io.cucumber.java.pt.Quando;
+import pageObjects.TelaInicialPage;
+
+import static utils.Utils.*;
+
+public class TestandoActionSteps {
+	
+	
+	
+}

@@ -1,0 +1,41 @@
+package pageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class TelaInicialPage extends BasePage {
+
+	public void acionarAbaAdmin() {
+		abaAdmin.click();
+	}
+	
+	// Elementos
+	@FindBy(id = "btnAdd")
+	private WebElement botaoAdd;
+	
+	@FindBy(linkText = "PIM")
+	public WebElement abaPim;
+	
+	@FindBy(linkText = "Configuration")
+	public WebElement menuConfiguration;
+
+	@FindBy(linkText = "Custom Fields")
+	public WebElement menuCustomFields;
+	
+	public void acionarBotaoAdd() {
+		botaoAdd.click();
+	}
+	
+	public void moverMouseParaAbaPim() {
+		acao.moveToElement(abaPim).build().perform();		
+	}
+	
+	public void moverMouseParaMenuConfiguration() {
+		acao.moveToElement(menuConfiguration).build().perform();		
+	}
+	
+	public void moverMouseParaMenuCustomFields() {
+		acao.moveToElement(menuCustomFields).build().perform();		
+	}
+	
+}

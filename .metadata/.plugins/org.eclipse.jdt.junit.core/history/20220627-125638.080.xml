@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="TestesAutomatizados" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.RunnerTest" time="12.16">
+    <testsuite name="Funcionalidade: TestarAction" time="12.16">
+      <testcase name="verificar dropDown da aba" classname="TestarAction" time="12.16">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "acionar o submenu Custom Field" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "o sistema apresenta a tela Custom Field" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

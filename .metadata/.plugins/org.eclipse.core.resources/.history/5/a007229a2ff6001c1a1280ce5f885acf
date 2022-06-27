@@ -1,0 +1,26 @@
+package stepsDefinitions;
+
+import io.cucumber.java.pt.Quando;
+
+import static utils.Utils.*;
+
+public class TestandoActionSteps {
+	
+	@Quando("mover o mouse para a aba PIM")
+	public void moverOMouseParaAAbaPIM() {
+	    Na(BasePage.class).moverMouseParaAbaPim
+	}
+
+	@Quando("mover o mouse para o menu Configuration")
+	public void moverOMouseParaOMenuConfiguration() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Quando("mover o mouse para o menu Custon Field")
+	public void moverOMouseParaOMenuCustonField() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+	
+}
