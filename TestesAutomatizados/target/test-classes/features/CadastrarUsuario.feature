@@ -10,7 +10,7 @@ Funcionalidade: Cadastrar usuario
 		E acionar o botao Add
 		E informar no campo employee name "Fiona Grace"
 		E informar no campo username "Bruno.Mundim"
-		E informar no campo password "Pedro123!"
-		E informar no campo confirm password "Pedro123!"
+		E informar no campo password "BrunoRodrigues127@"
+		E informar no campo confirm password "BrunoRodrigues127@"
 		E clicar no botao salvar
 		Entao o sistema cadastra o usuario "Bruno.Mundim"
