@@ -43,11 +43,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="automacaoMobile"/>
 			<item value="Automacao"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TestesAutomatizadosMobile"/>
 			<item value="TestesAutomatizados"/>
 		</list>
 		<list key="projectNameTemplate">
