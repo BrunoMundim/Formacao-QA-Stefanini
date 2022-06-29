@@ -22,7 +22,7 @@ public class CriarNotaSteps {
 	@Quando("eu criar uma nova nota")
 	public void euCriarUmaNovaNota() {
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
@@ -58,5 +58,5 @@ public class CriarNotaSteps {
 		}
 		assertEquals(title, driver.findElement(By.id("com.google.android.keep:id/index_note_title")).getText());
 	}
-
+	
 }

@@ -1,6 +1,7 @@
 #language: pt
 #encoding: UTF-8
 
+@novaNota
 Funcionalidade: Google Keep
 
 Contexto: 

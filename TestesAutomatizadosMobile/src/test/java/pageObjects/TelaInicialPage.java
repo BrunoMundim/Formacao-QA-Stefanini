@@ -3,12 +3,6 @@ package pageObjects;
 import static utils.Utils.driver;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
-
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class TelaInicialPage {
 	
@@ -30,6 +24,10 @@ public class TelaInicialPage {
 //	
 //	@AndroidFindBy(accessibility = "Navigate up")
 //	private AndroidElement btnBack;
+	
+	public void acionarMenu() {
+		driver.findElementByAccessibilityId("Open navigation drawer").click();
+	}
 	
 	public void acionarBtnGetStarted() {
 		driver.findElement(By.id("com.google.android.keep:id/skip_welcome")).click();
