@@ -17,11 +17,6 @@ public class SwitchSteps {
 
 	@Quando("eu acionar o menu")
 	public void euAcionarOMenu() {
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		telaInicial.acionarMenu();
 	}
 

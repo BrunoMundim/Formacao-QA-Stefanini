@@ -21,21 +21,11 @@ public class CriarNotaSteps {
 
 	@Quando("eu criar uma nova nota")
 	public void euCriarUmaNovaNota() {
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		telaInicial.acionarBtnNewNote();
 	}
 
 	@Quando("informar no campo Title {string}")
 	public void informarNoCampoTitle(String title) {
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		telaInicial.informarCampoTitle(title);
 	}
 
@@ -51,11 +41,6 @@ public class CriarNotaSteps {
 
 	@Entao("o aplicativo cadastra a nota com o titulo {string}")
 	public void oAplicativoCadastraANotaComOTitulo(String title) {
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		assertEquals(title, driver.findElement(By.id("com.google.android.keep:id/index_note_title")).getText());
 	}
 	
